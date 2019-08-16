@@ -1,0 +1,15 @@
+.sBar{
+    margin-left: -200px;
+}
+
+.navSearch{
+  background-color: rgba(255, 233, 38, 0.808);
+}
+
+.navSearch:hover{
+  background-color: yellow;
+}
+
+.btn:active {
+  box-shadow: none;
+}

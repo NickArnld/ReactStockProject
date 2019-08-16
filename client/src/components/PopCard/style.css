@@ -1,0 +1,15 @@
+.card{
+    margin: 40px;
+    width: 40em;
+    border-width: 6px;
+    border-color: rgba(255, 233, 38, 0.808);
+}
+.card:hover{
+    border-color: yellow;
+}
+.card-body{
+    text-align: center;
+}
+.stockImg{
+    height: 200px;
+}

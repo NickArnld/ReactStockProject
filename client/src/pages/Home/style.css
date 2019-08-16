@@ -1,0 +1,13 @@
+.homeB{
+    background-color: rgba(255, 233, 38, 0.808);
+    text-align: center;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.cardSection{
+    display: flex;
+    margin-left: 10em;
+    margin-right: 10em;
+}
