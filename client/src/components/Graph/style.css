@@ -1,3 +1,8 @@
-/* .chartContainer{
-    margin: 50em;
-} */
+.chartContainer{
+    margin: 2em 0em;
+    margin-left: 7em;
+    margin-right: 6em;
+    border-width: 6px;
+    border-color: rgba(255, 233, 38, 0.808);
+    /* background-color: rgba(206, 206, 206, 0.589) */
+}

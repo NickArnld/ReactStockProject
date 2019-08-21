@@ -31,16 +31,16 @@ class Navbar extends Component{
         if(symbol === ""){
             this.setState({searchPlaceHolder: "Please Enter Something"});
         }else{
-            //this.setState({toChart: true});
-            this.props.history.push(`/chart/${this.state.search}`);
+            this.setState({toChart: true});
+            // this.props.history.push(`/chart/${this.state.search}`);
         }
 
     }
 
     render (){
-        // if(this.state.toChart === true){
-        //     return <Redirect to={`/chart/${this.state.search}`}/>
-        // };
+        if(this.state.toChart === true){
+            return <Redirect to={`/chart/${this.state.search}`}/>
+        };
 
         return(
         <div>
@@ -58,4 +58,4 @@ class Navbar extends Component{
     }
 }
 
-export default withRouter(Navbar);
+export default Navbar;

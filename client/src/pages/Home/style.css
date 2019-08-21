@@ -4,10 +4,13 @@
 }
 h3{
     text-align: center;
-    text-decoration: underline;
 }
 .cardSection{
     display: flex;
     margin-left: 10em;
     margin-right: 10em;
+}
+.toolSection{
+    text-align: center;
+    margin: 1em 8em;
 }
